@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4ca467</color>4ca467
+    <color name="colorPrimaryDark">#37804d</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="operatorButton">#FF4081</color>
+    <color name="numberButton">#f998b9</color>
+
+
+
+</resources>
