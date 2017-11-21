@@ -1,11 +1,13 @@
 package com.example.android.calculatormalgoskag
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import org.jetbrains.anko.toast
+import kotlinx.android.synthetic.main.activity_main.*
+
 
 
 class MainActivity : AppCompatActivity() {
@@ -58,11 +60,10 @@ class MainActivity : AppCompatActivity() {
     //aktualizacja wyświetlacza kalkulatora
     fun updateDisplay(mainDisplayString: String, mainDisplayChar: String) {
 
-        val fullCalculationTextView = findViewById<TextView>(R.id.fullCalculationText)
-        fullCalculationTextView.text = mainDisplayString
 
-        val mainTextView = findViewById<TextView>(R.id.textView)
-        mainTextView.text = mainDisplayChar
+        fullCalculationText.text = mainDisplayString
+        textView.text = mainDisplayChar
+
     }
 
     //sprawdza czy w zmiennej przechowującej aktualnie wbijany znak, jest liczba czy znak działania
